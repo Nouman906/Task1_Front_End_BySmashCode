@@ -1,0 +1,293 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #34495e;
+
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 80px;
+    color: #fff;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+
+}
+ nav ul li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;   
+}
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;    
+}
+
+
+
+
+
+
+
+
+
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+    text-align: center;
+
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor:pointer;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+
+}.question h3{
+    font-size: 1.8rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 1.4s ease;
+}
+.answer p{
+    padding-top: -4%;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+    margin-left: 1%;
+    color: black;
+
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.5s ease-in;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+    img{
+    border-radius:10px;
+   height: 300px;
+   margin-left: 10px;
+    margin-top: 20px;
+}
+h2{
+    margin-right: 30%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.form-contact{
+    width:80%;
+    background-color: aliceblue;
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+form{
+    align-items: center;
+}
+input{
+    border: none;
+    margin-top: 5%;
+    height: 30px;
+    width:45%;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+}
+input:focus{
+border-radius: 5px;
+}
+input.address{
+    height: 70px;
+    width: 80%;
+    
+}
+button{
+    float: left;
+    margin-top:15%;
+    margin-left:10px;
+    background: black;
+    color:#fff;
+    width: 60px;
+    border-radius: 5px;
+
+ }
+ .foot{
+        background-color: black;
+        width: 100%;
+        height: 400px;
+        margin-top: 200px;
+ }
+
+footer{
+    position: relative;
+   font-size: 13px;
+   
+   width: 100%;
+
+}
+.row{
+    
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+p{
+    color: #fff;
+    float: left;
+    margin-left: -1%;
+    margin-top: 6%;
+    font-size: 14px;
+
+}
+.logo{
+    height: 150px;
+    float: left;
+    margin-left: 3%;
+    
+}
+ 
+ .mainf{
+    margin-top: 10%;
+    justify-items: center;
+    height: 150px;
+    border-bottom: 1px solid wheat;
+    
+ }
+ .h4w{
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top:2%;
+ }
+ h5{
+    color:#34495e;
+    margin-left: 10%;
+    margin-top:1%;
+    font-size: 13px;
+ }
+  .foot .col .h5m{
+    color:#fff;
+    margin-top: 15px;
+
+
+ }
+ .foot .mainf .col .h4e{
+        color:white;
+        float: right;
+    margin-right: 50%;
+    margin-top: -4.0%;
+
+ }
+ .foot .mainf .col .h5m{
+    color:#34495e;
+    margin-top:-2.0%;
+    margin-left: 45%;
+    font-size: 13px;
+    
+
+ }
+ hr{
+    color: blue;
+    width: 50px;
+    margin-left: 58%;
+ }
+ .col .use{
+    color:#fff;
+    font-size: 14px;
+    margin-left:58%;
+ }
+ ul li{
+    list-style: none;
+     color: #fff;
+     margin-left: 58%;
+     line-height: 25px;
+ }
+ .col h1{
+float: right;
+margin-right: 13%;
+margin-top: -12%;
+color: #fff;
+ }
+ .col .footerpara{
+    color:white;
+    margin-top: -8%;
+    float: right;
+    margin-right: 3.5%;
+ }
+ .footermail{
+    width: 14%;
+    margin-top:-6%;
+    float: right;
+    margin-right: 14%;
+    position: relative;
+
+ }
+ .btn{
+    color:black;
+    margin-top:-6%;
+    height: 30px;
+    background:#34495e;
+    border:1px solid black;
+    float: right;
+    margin-right:8.3% ;
+    font-weight: 600;
+    font-weight: bold;
+    width:6%;
+ }
+ .btn:hover{
+    background:steelblue;
+ }
+
+
+
